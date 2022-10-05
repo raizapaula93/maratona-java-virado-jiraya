@@ -13,11 +13,26 @@ public class Calculadora {
         System.out.println(num1*num2);//execução do contrato
     }
 
-    public double divideDoisNumeros(int num1, int num2){
-        if(num2 ==0){
-            return 0;//funciona como um break neste caso
+    public double divideDoisNumeros(double num1, double num2) {
+        if (num2 == 0) {
+            return 0;
         }
+        return num1 / num2;
+    }
 
-        return num1/num2;//o retorno de um método é como se vc tivesse iniciando uma variável com aquele atributo
+    public double divideDoisNumeros02(double num1, double num2) {
+        if (num2 != 0) {
+            return num1 / num2;
+        }
+        return 0;
+    }
+
+    public void imprimeDivisaoDeDoisNumeros(double num1, double num2) {
+        if (num2 == 0) {
+            System.out.println("Não existe divisão por zero");
+            return;//este retorno vazio só pode ser usado para parar execução do método void
+        }
+        System.out.println(num1 / num2);
+
     }
 }

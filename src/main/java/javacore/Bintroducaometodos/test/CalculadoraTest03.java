@@ -10,5 +10,8 @@ public class CalculadoraTest03 {
         //o retorno é do tipo especificado na construção do método
         //ou se não for, é necessário fazer cast
         System.out.println(result);
+        System.out.println(calculadora.divideDoisNumeros02(20,0));
+        System.out.println("-----------");
+        calculadora.imprimeDivisaoDeDoisNumeros(86,0);
     }
 }
