@@ -17,6 +17,8 @@ public class CarroTest01 {
         c2.modelo = "J3";
         c2.ano = 2012;
 
+        c1 = c2;
+
         System.out.println("Carros");
         System.out.println("-------");
         System.out.println(c1.toString());
