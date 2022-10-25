@@ -14,4 +14,8 @@ public class CalculadoraTest03 {
         System.out.println("-----------");
         calculadora.imprimeDivisaoDeDoisNumeros(86,0);
     }
+
+    public void alteraDoisNumeros (int num1, int num2){
+
+    }
 }
