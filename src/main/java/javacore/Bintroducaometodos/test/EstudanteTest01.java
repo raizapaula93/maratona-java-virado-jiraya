@@ -26,5 +26,12 @@ public class EstudanteTest01 {
         //Qdo vc passa objetos como argumento na vdd vc passa
         //a Referência (onde aquele objeto está guardado)
 
+        System.out.println("########################");
+
+        impressoraEstudante.imprime(estudante01); //como n perdeu os objs em memória, e a função alterou o estado do obj
+        //a alteraçã de estado do obj permanece qdo se faz uma nova referência ao msm obj
+        //dica: ao invés de alterar os dados q vc está passando no obj se precisar fazer algum tipo de alteração
+        //vc cria uma copia do obj, retorna com estado alterado
+        impressoraEstudante.imprime(estudante02);
     }
 }
