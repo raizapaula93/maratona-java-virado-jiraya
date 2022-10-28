@@ -12,7 +12,7 @@ public class PessoaTest01 {//código altamente coeso -> poucas coisas feitas pel
 
         //pessoa.imprime();
         System.out.println(pessoa.getNome());
-        System.out.println(pessoa.getIdade());
+        System.out.println(pessoa.getIdade());//a variável de referência só pode acessar
+        //de fora do objeto td q é público,sejam atributos ou métodos
     }
-
 }

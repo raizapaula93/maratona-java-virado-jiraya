@@ -6,8 +6,8 @@ public class Pessoa {
     private int idade;
 
     public void imprime(){
-        System.out.println(this.nome);
-        System.out.println(this.idade);
+        System.out.println(this.nome);//variável idempotente, sem necessidade de colocar get
+        System.out.println(this.idade);//variável idempotente, sem necessidade de colocar get
     }
 
     public void setNome(String nome) {
