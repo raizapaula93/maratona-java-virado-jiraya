@@ -11,7 +11,7 @@ public class LeituraDoTecladoTeste02 {
         if(pergunta.charAt(0) == 'A'||pergunta.charAt(0) == 'E'||pergunta.charAt(0) == 'I'||pergunta.charAt(0) == 'O'
                 ||pergunta.charAt(0) == 'U'||pergunta.charAt(0) == ' '){
             System.out.println("SIM");
-        }else{
+        }else {
             System.out.println("NÃO");
         }
 
