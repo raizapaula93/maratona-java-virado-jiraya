@@ -17,6 +17,6 @@ public class ListTest {
         for(int i = 0; i <nomes.size();i++) {
             System.out.println(nomes.get(i));
         }
-
+//https://www.bigocheatsheet.com/
     }
 }
