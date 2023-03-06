@@ -20,7 +20,7 @@ public class Smartphone {
         if(this == obj) return true;
         if(this.getClass() != obj.getClass()) return false;
         Smartphone smartphone = (Smartphone) obj;
-        return serialNumber != null && serialNumber.equals(smartphone.serialNumber);
+        return serialNumber != null && this.serialNumber.equals(smartphone.serialNumber);
     }
 
     //se x.equals(y) == true, y.hashCode() == x.hashCode()
